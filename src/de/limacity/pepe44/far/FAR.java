@@ -18,7 +18,7 @@ public class FAR extends JavaPlugin {
 
         System.out.println("Farmweltreset Geladen");
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd:MM:yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("mm:HH");
         Date now = new Date();
         LastDate = sdf.format(now);
 
